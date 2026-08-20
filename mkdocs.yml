@@ -1,0 +1,64 @@
+site_name: 바래의 오류 저장공간
+site_description: 리눅스, 임베디드, 게이밍 기기를 만지며 겪은 삽질을 정리하는 문서형 블로그
+site_url: https://gihun3645.github.io
+repo_name: gihun3645.github.io
+repo_url: https://github.com/dev-solstice/gihun3645.github.io
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+  - tags:
+      tags_file: tags.md
+      tags_allowed:
+        - platform:bc250
+        - platform:jetson
+        - platform:rpi4
+        - platform:stm32
+        - topic:linux-kernel
+        - topic:gaming
+        - topic:cooling
+        - topic:networking
+        - topic:llm
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Guides:
+      - guides/index.md
+      - BC-250:
+          - guides/bc250/index.md
+          - guides/bc250/hardware-basics.md
+          - guides/bc250/linux-distro.md
+          - guides/bc250/gpu-tuning.md
+          - guides/bc250/gaming-setup.md
+          - guides/bc250/cooling.md
+          - guides/bc250/3d-printed-case.md
+          - guides/bc250/power-supply.md
+          - guides/bc250/benchmarks.md
+      - Jetson Nano B01 + TurtleBot3: guides/jetson-nano-b01-turtlebot3/index.md
+      - Raspberry Pi 4: guides/raspberry-pi4/index.md
+      - Jetson Yocto: guides/jetson-yocto/index.md
+      - STM32 Embedded Basics: guides/stm32-embedded-basics/index.md
+  - Blog: blog/index.md
+  - About: about.md
