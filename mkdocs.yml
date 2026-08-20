@@ -4,6 +4,10 @@ site_url: https://gihun3645.github.io
 repo_name: gihun3645.github.io
 repo_url: https://github.com/dev-solstice/gihun3645.github.io
 
+not_in_nav: |
+  index.md
+  tags.md
+
 theme:
   name: material
   language: ko
