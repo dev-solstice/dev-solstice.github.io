@@ -1,8 +1,8 @@
 site_name: 바래의 오류 저장공간
 site_description: 리눅스, 임베디드, 게이밍 기기를 만지며 겪은 삽질을 정리하는 문서형 블로그
-site_url: https://gihun3645.github.io
-repo_name: gihun3645.github.io
-repo_url: https://github.com/dev-solstice/gihun3645.github.io
+site_url: https://dev-solstice.github.io
+repo_name: dev-solstice.github.io
+repo_url: https://github.com/dev-solstice/dev-solstice.github.io
 
 not_in_nav: |
   index.md
