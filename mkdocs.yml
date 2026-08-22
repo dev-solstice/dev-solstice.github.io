@@ -1,8 +1,6 @@
 site_name: 바래의 오류 저장공간
 site_description: 리눅스, 임베디드, 게이밍 기기를 만지며 겪은 삽질을 정리하는 문서형 블로그
 site_url: https://dev-solstice.github.io
-repo_name: dev-solstice.github.io
-repo_url: https://github.com/dev-solstice/dev-solstice.github.io
 
 not_in_nav: |
   index.md
@@ -13,7 +11,6 @@ theme:
   language: ko
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.top
     - toc.follow
     - content.code.copy
@@ -51,15 +48,16 @@ nav:
   - Guides:
       - guides/index.md
       - BC-250:
-          - guides/bc250/index.md
-          - guides/bc250/hardware-basics.md
-          - guides/bc250/linux-distro.md
-          - guides/bc250/gpu-tuning.md
-          - guides/bc250/gaming-setup.md
-          - guides/bc250/cooling.md
-          - guides/bc250/3d-printed-case.md
-          - guides/bc250/power-supply.md
-          - guides/bc250/benchmarks.md
+              - guides/bc250/index.md              
+              - guides/bc250/buying-guide.md  # 신규: 뭘 사야 하는지,이게 뭐고 왜 사는지, 총 예산 요약
+              - guides/bc250/power-supply.md  # 순서 앞당김 - 조립 전 필수 지식
+              - guides/bc250/hardware-basics.md
+              - guides/bc250/linux-distro.md
+              - guides/bc250/gpu-tuning.md
+              - guides/bc250/benchmarks.md
+              - guides/bc250/cooling.md
+              - guides/bc250/3d-printed-case.md
+              - guides/bc250/gaming-setup.md         # 이건 부록으로
       - Jetson Nano B01 + TurtleBot3: guides/jetson-nano-b01-turtlebot3/index.md
       - Raspberry Pi 4: guides/raspberry-pi4/index.md
       - Jetson Yocto: guides/jetson-yocto/index.md
