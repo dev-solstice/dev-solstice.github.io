@@ -36,6 +36,7 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.highlight
