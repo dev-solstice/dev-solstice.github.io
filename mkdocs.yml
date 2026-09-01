@@ -51,13 +51,9 @@ nav:
       - BC-250:
               - guides/bc250/index.md              
               - guides/bc250/buying-guide.md  # 신규: 뭘 사야 하는지,이게 뭐고 왜 사는지, 총 예산 요약
-              - guides/bc250/power-supply.md  # 순서 앞당김 - 조립 전 필수 지식
               - guides/bc250/hardware-basics.md
               - guides/bc250/linux-distro.md
-              - guides/bc250/gpu-tuning.md
-              - guides/bc250/benchmarks.md
-              - guides/bc250/cooling.md
-              - guides/bc250/3d-printed-case.md
+              - guides/bc250/gpu-setting.md
               - guides/bc250/gaming-setup.md         # 이건 부록으로
       - Jetson Nano B01 + TurtleBot3: guides/jetson-nano-b01-turtlebot3/index.md
       - Raspberry Pi 4: guides/raspberry-pi4/index.md

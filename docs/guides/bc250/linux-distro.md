@@ -7,4 +7,9 @@ tags:
 
 # 리눅스 배포판 선택
 
-Bazzite와 일반 Fedora/Arch 계열을 게이밍 관점에서 비교하고, BC-250에 어떤 배포판이 적합한지 정리합니다.
+게이밍의 경우 Bazzite 를 사용하며 터미널 사용에 불편함이 있습니다.
+LLM 목적의 경우 Fedora / Debian 등을 사용합니다.
+
+바자이트 : [https://elektricm.github.io/amd-bc250-docs/linux/bazzite/#voltage-configuration](https://elektricm.github.io/amd-bc250-docs/linux/bazzite/#voltage-configuration)
+
+데비안 : [https://elektricm.github.io/amd-bc250-docs/linux/debian](https://elektricm.github.io/amd-bc250-docs/linux/debian/)
